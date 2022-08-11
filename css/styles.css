@@ -1,0 +1,245 @@
+/*Палитра цвета*/
+
+/* цвет основного текста #757575 */
+
+/*цвет вторичного текста #212121 */
+
+/* цвет акцента #2196F3 */
+
+/*цвет основого заголовка #FFFFFF */
+
+/* цвет основного фона #FFFFFF */
+
+/* цвет вторичного фона #F5F4FA */
+
+/* цвет фона2 #2F303A */
+
+
+
+
+
+
+:root {
+--primary-text-color:#757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--primary-bg-color:#FFFFFF;
+}
+
+body {
+background-color: var(--primary-bg-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+}
+
+.list {
+list-style: none;
+}
+
+.logo {
+    color:var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo:hover {
+color: var(--accent-color);
+}
+
+.logo-web {
+    color: var(--accent-color);
+    
+}
+
+/* Навигация */
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+        
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--accent-color);
+}
+
+
+/*мэйн*/
+.hero {
+    background-color:var(--title-text-color);
+}
+.hero-title{
+    color: var(--primary-bg-color);
+    font-family:'Roboto';
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+.hero-title,
+.features-title,
+.work-title {
+    color:var(--title-text-color);
+}
+
+.work-title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/*контакты*/
+
+.header-contact .contact{
+    color:var(--primary-text-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+
+}
+
+.header-contact .contact:hover,
+.header-contact .contact:focus {
+    color: var(--accent-color);
+}
+
+
+.button {
+    color: var(--primary-bg-color);
+    background-color:#2196F3;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        /* identical to box height, or 188% */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+
+.button .primary {
+    background-color:var(--accent-color);
+    color:var(--primary-bg-color);
+}
+
+/*Команда */
+
+.section-title{
+    color:var(--title-text-color);
+}
+
+.team-text{
+    font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+
+.team {
+    background-color:#F5F4FA;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+
+.title-team{
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+       
+    
+       /* text-align: center;*/
+        letter-spacing: 0.03em;
+}
+
+
+
+/* Footer */
+
+.logo-footer {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        /* identical to box height */
+    color:#fff;
+    text-decoration: none;
+        letter-spacing: 0.03em;
+}
+
+.logo-footer:hover{
+    color:var(--accent-color);
+}
+
+.footer-list{
+    background-color:#2F303A;
+}
+
+/* Контакты */
+
+.contact-adress{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+        color: #FFFFFF;
+    
+        letter-spacing: 0.03em;
+}
+
+.contact-mail, .contact-tel{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+    color: rgba(255, 255, 255, 0.6);
+        letter-spacing: 0.03em;
+}
+
+.contact-adress:hover,
+.contact-mail:hover,
+.contact-tel:hover{
+    color: var(--accent-color);
+}
+
+.contact-adress:focus,
+.contact-mail:focus,
+.contact-tel:focus{
+    color: var(--accent-color);
+}
