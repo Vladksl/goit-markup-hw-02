@@ -30,6 +30,8 @@ body {
 background-color: var(--primary-bg-color);
 color: var(--primary-text-color);
 font-family: Roboto, sans-serif;
+font-size: 14px;
+letter-spacing: 00.03em;
 }
 
 .list {
@@ -43,6 +45,7 @@ list-style: none;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .logo:hover {
 color: var(--accent-color);
@@ -59,7 +62,7 @@ color: var(--accent-color);
     color: var(--title-text-color);
     font-family: 'Roboto';
         
-        font-weight: 500;
+        
         font-size: 14px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -83,7 +86,7 @@ color: var(--accent-color);
 .hero-title{
     color: var(--primary-bg-color);
     font-family:'Roboto';
-        font-weight: 900;
+        
         font-size: 44px;
         line-height: 1.36;
         /* or 136% */
@@ -102,7 +105,7 @@ color: var(--accent-color);
 .work-title{
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 700;
+        
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
@@ -121,10 +124,11 @@ color: var(--accent-color);
     color:var(--primary-text-color);
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 500;
+        
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        text-decoration: none;
 
 }
 
@@ -180,7 +184,7 @@ color: var(--accent-color);
     color: var(--title-text-color);
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 500;
+        
         font-size: 16px;
         line-height: 1.18;
        
@@ -218,24 +222,25 @@ color: var(--accent-color);
 .contact-adress{
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 400;
+       
         font-size: 14px;
         line-height: 1.71;
         /* or 171% */
         color: #FFFFFF;
-    
+    text-decoration: none;
         letter-spacing: 0.03em;
 }
 
 .contact-mail, .contact-tel{
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 400;
+        
         font-size: 14px;
         line-height: 1.71;
         /* or 171% */
     color: rgba(255, 255, 255, 0.6);
         letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .contact-adress:hover,
@@ -266,7 +271,7 @@ color: var(--accent-color);
 .button-portf{
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 500;
+        
         font-size: 16px;
         line-height: 1.6;
         cursor: pointer;
@@ -285,7 +290,7 @@ color: var(--accent-color);
 .portf-list-title{
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 700;
+        
         font-size: 18px;
         line-height: 2;
         /* identical to box height, or 200% */
