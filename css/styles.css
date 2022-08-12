@@ -61,8 +61,13 @@ color: var(--accent-color);
         
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.14;
+        line-height: 1.2;
         letter-spacing: 0.02em;
+        text-decoration: none;
+}
+
+.link .studio{
+    color:var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -88,7 +93,7 @@ color: var(--accent-color);
         text-transform: uppercase;
 }
 
-.hero-title,
+
 .features-title,
 .work-title {
     color:var(--title-text-color);
@@ -130,19 +135,20 @@ color: var(--accent-color);
 
 
 .button {
-    color: var(--primary-bg-color);
-    background-color:#2196F3;
-    font-family: 'Roboto';
-        font-style: normal;
+    background: var(--accent-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        font-family: inherit;
+        border-radius: 4px;
+        border: none;
         font-weight: 700;
         font-size: 16px;
-        line-height: 1.87;
-        /* identical to box height, or 188% */
-    
+        line-height: 1.88;
         display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
+        cursor: pointer;
+        color: #ffffff;
 }
 
 .button .primary {
@@ -243,3 +249,55 @@ color: var(--accent-color);
 .contact-tel:focus{
     color: var(--accent-color);
 }
+
+
+
+
+/* Portfolio */
+
+.link .portfolio{
+    color:var(--title-text-color);
+}
+
+.portf-title{
+    display: none;
+}
+
+.button-portf{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        cursor: pointer;
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.button-portf:hover,
+.button-portf:focus{
+    background:#2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        color: #ffffff;
+}
+
+.portf-list-title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+        color:var(--title-text-color);
+}
+
+.portf-text{
+    font-size: 16px;
+        line-height: 1.88;
+        /* identical to box height, or 188% */
+    
+        letter-spacing: 0.03em;
+        color:var(--primary-text-color);
