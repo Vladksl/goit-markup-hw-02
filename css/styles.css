@@ -61,17 +61,18 @@ list-style: none;
 .site-nav .link{
     color: var(--title-text-color);
     
-        font-weight:500px;
+        font-weight:500;
         
         font-size: 14px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-decoration: none;
 }
-.link .studio {
-    color: var(--title-text-color);
-    
+
+.link.current{
+    color:#2196F3;
 }
+
 
 
 
@@ -237,6 +238,7 @@ list-style: none;
     color:var(--primary-bg-color);
     text-decoration: none;
         letter-spacing: 0.03em;
+        font-family: 'Raleway';
 }
 
 .logo-footer:hover{
